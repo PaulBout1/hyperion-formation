@@ -1,5 +1,3 @@
-import 'dart:async';
-
 /// # READ !
 ///
 /// * bash `dart create dart_app`
@@ -10,24 +8,10 @@ import 'dart:async';
 ///
 /// ## [A tour of the Dart language](https://dart.dev/guides/language/language-tour)
 ///
-/// # exercice
-///
-/// Ecrire une application console
-///
-/// a - Ajouter un animal
-///     - quel animal ?
-///     - quel est son cris ?
-/// l - Lister les animaux saisis en sens inverse
-/// q - quitter
-///
-/// Helper : [Wikipedia](https://fr.wikipedia.org/wiki/Liste_de_cris_d%27animaux)
-///
-///
 
 // ignore_for_file: unused_local_variable
 
 void main(List<String> args) async {
-
   /// * commentaires
 
   /// * variables
@@ -71,7 +55,6 @@ void main(List<String> args) async {
   // while (year < 2016)
   // for (final object in flybyObjects)
   // for (int month = 1; month <= 12; month++)
-
 }
 
 // * class (abstract)
@@ -117,13 +100,12 @@ class Pokemon {
     }
     return 'Psykokwak';
   }
-  
+
   // * enums
 
   // * extensions
 
   // * Asynchronous (async, await, Future)
-
 }
 
 class PokemonNotFoundException implements Exception {}
